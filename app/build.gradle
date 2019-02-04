@@ -10,7 +10,7 @@ repositories {
 
 android {
     compileSdkVersion 26
-    buildToolsVersion '26.2.0'
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.google.firebase.udacity.friendlychat"
@@ -46,7 +46,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:16.0.1'
 
     //Firebase data base
-    implementation 'com.google.firebase:firebase-database:16.0.3'
+    implementation 'com.google.firebase:firebase-database:16.0.1'
 }
 
 apply plugin: 'com.google.gms.google-services'
